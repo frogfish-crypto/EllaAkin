@@ -32,7 +32,7 @@
 # 10) What command lets you move from "course_assignments/homework2/" to "course_assignments/"?
     #cd ..
 # 11) What would rm ./ do in your current directory? (Don’t try it!)
-    #I think it would delete everything in the current directory 
+    #I think it would delete the current directory 
 # 12) What do the following commands do?
 # git add
     #moves your new files to staging area
