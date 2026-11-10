@@ -141,3 +141,74 @@ print(ages)
 
 ages.pop("Mariam")
 print(ages)
+
+
+# import matplotlib.pyplot as plt
+
+# import numpy as np
+
+##sin function 
+#x = np.linspace(0, 2 * np.pi, 100) 
+#y = np.sin(x)
+#plt.figure(figsize = (6,4))
+#plt.plot(x,y) 
+#plt.show() 
+#(to change period:
+##just change y=np.sin(2*x)
+##I think)
+##several functions to same plot
+#y1 = np.sin(x)
+#y2 = np.cos(x)
+#new cell
+#plt.figure()
+#plt.scatter(x, y1,label = "sin(x)")
+#plt.scatter(x, y2, label = "cos(x)", color = "purple")
+#plt.title("Sine and cosine wave")
+#plt.xlabel("x values (radians)")
+#plt.ylabel("f(x)")
+#plt.legend()
+#plt.show()
+#new cell
+#plt.figure()
+#plt.plot(x, y1, color = "xkcd:ickygreen", linesyle = "-.", linewidth=10, alpha = 0.5, marker = "*")
+#plt.show
+##normally you wanna label all the axes 
+#but this is just to show customization so she didn't bother
+#marker draws a shape at every data point, asterisk gives you a star
+#alpha is transparency 
+#
+##subplots - depends on having done the data series stuff (up above)
+#fig, axes = plt.subplots(1, 2, figsize = (10, 4))
+#axes[0].plot(x, y1, color ="teal", ls= ":")
+##specify the subplot you're talking about ^ x and y1 indicates our sin graph
+#axes[0].set_title("Sine Wave")
+#axes[1].plot(x, y2, color = "cornflowerblue", ls = "--")
+#axes[1].set_title("Cosine Wave", color = "indigo")
+##should create two graphs side by side, one sine one cosine 
+##subplots use  
+##How would you plot two subplots vertically?
+##      What woud you set the figsize to?
+#fig, axes = plt.subplots(2,1, figsize=(4, 8)) ##instead of (1,2) lol
+##How would you change the colors of the titles
+##axes[0].settitle("Sine Wave", color = "pink") and change it for each of the axes things
+##How would you change the lines to scatter plots
+##axes[1].scatter(x, y^2, color ="cornflower blue")
+##What do you need to call when when you finish a figure
+# idk is it plt.show()?
+#can do semicolons at theend of each thing too as a shortcut
+# axes[0].scatter(x, y1, color ="teal", s=3)
+# #Let's make two side by side subplots and plot on both?
+#fig, axes = plt.subplot(1,2,figsize=(8,8))
+#
+# axes[0].
+# #
+#plt.figure
+#
+# 
+# 
+# 
+# 
+# 
+# 
+# j
+
